@@ -1,3 +1,4 @@
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   line-height: 1.6;
 }
 
+/* Header Styles */
 header {
   text-align: center;
   padding: 2rem;
@@ -27,6 +29,22 @@ header p {
   font-size: 1.1rem;
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Content Styles */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -35,6 +53,11 @@ main {
   gap: 2rem;
 }
 
+section {
+  margin-bottom: 20px;
+}
+
+/* Contact Form and Info Styles */
 .contact-form,
 .contact-info {
   background-color: white;
@@ -175,4 +198,36 @@ main {
     flex-direction: row;
     align-items: flex-start;
   }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* New styles for additional elements */
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #4CAF50;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
